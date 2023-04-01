@@ -1,0 +1,168 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+:root{
+   --mc: #000000;
+   --tc: white;
+}
+section{
+   width: 100%;
+   padding: 10px;
+}
+.tb{
+   border: 2px solid red;
+}
+.header, .about{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   padding: 10px;
+}
+.logo{
+   text-align: center;
+}
+.imp{
+   font-size: 20px;
+}
+.navbar{
+   width: 80%;
+   text-align: center;
+   padding: 5px 0px;
+   border-bottom: 2px solid black;
+}
+.navbar li{
+   width: 100%;
+   display: inline;
+   margin: 0px 5px;
+}
+.navbar li a{
+   text-decoration: none;
+   color: var(--mc)
+}
+.hero{
+   padding: 0px 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.image{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   background-color: var(--mc);
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+}
+.text{
+   padding: 10px;
+}
+.btn{
+   padding: 8px 10px;
+   background-color: var(--mc);
+   text-decoration-line: none;
+   color: white;
+}
+.ab-image{
+   width: 80%;
+   height: 150px;
+   background-color: var(--mc);
+}
+.content h2{
+   border-bottom: 2px solid black;
+   padding: 5px;
+}
+.heading{
+   width: 90%;
+   text-align: left;
+   border-bottom: 2px solid black;
+   padding: 5px;
+}
+.skills-box, .serv, .expbox{
+   width: 100%;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.skill-box, .serbox, .exp{
+   width: 40%;
+   height: 150px;
+   background-color: var(--mc);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   color: white;
+}
+.fiverr{
+   width: 90%;
+   height: 100px;
+   background-color: var(--mc);
+   margin: 0px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+}
+.fiverr a{
+   text-decoration: none;
+   background-color: var(--tc);
+   padding: 8px 10px;
+   color: var(--mc);
+   border-radius: 5px;
+}
+.form{
+   width: 100%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.form input{
+   width: 100%;
+   height: 30px;
+   padding: 5px;
+}
+.form .input-sp{
+   width: 100%;
+   height: 100px;
+}
+.form button{
+   padding: 10px;
+   background-color: var(--mc);
+   color: white;
+   border: none;
+}
+.main, .contact{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 5px;
+   list-style-type: none;
+   padding: 10px;
+}
+.main li a, .contact li a{
+   text-decoration: none;
+   color: var(--mc);
+}
+.main h5{
+   width: 100px;
+   text-align: center;
+}
